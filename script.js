@@ -19,7 +19,7 @@ $(document).ready(function() {
 $(function() {
 	var hiddenArea = (document.documentElement.clientHeight - 51);
 	$('nav').addClass('hidden');
-	if (document.documentElement.clientWidth < "420px") {
+	if (document.documentElement.clientWidth > 	420) {
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > hiddenArea) {
 			$('nav').fadeIn(400);
