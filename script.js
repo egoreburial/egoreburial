@@ -19,7 +19,7 @@ $(document).ready(function() {
 $(function() {
 	var hiddenArea = (document.documentElement.clientHeight - 51);
 	$('nav').addClass('hidden');
-	if (document.documentElement.clientWidth > 	420) {
+	if (document.documentElement.clientWidth > 	435) {
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > hiddenArea) {
 			$('nav').fadeIn(400);
@@ -27,16 +27,29 @@ $(function() {
 			$('nav').fadeOut(300);
 		};
 	});
+} else {
+	$('nav').toggleClass('hidden');
+	$('#menuWrap').toggleClass('hidden');
 };
 });
 
+$('#menuButton').click(function() {
+		$('#menuWrap').fadeToggle(300);
+	});
+
+
 $('a[href^="#"]').on('click', function(event) {
+	$('#menuWrap').fadeToggle(300);
     var target = $(this.getAttribute('href'));
     if( target.length ) {
         event.preventDefault();
+        if (document.documentElement.clientWidth > 	435) {
         $('html, body').stop().animate({
             scrollTop: target.offset().top - 50
         }, 1000);
+      } else {$('html, body').stop().animate({
+            scrollTop: target.offset().top}, 1000);
+    };
     }
 });
 
@@ -49,12 +62,8 @@ function zoomRelease() {
 	$('.release').css({'zoom' : zoom + '%'});
 };
 
-
 zoomRelease();
 $(window).on('resize orientationChange', zoomRelease);
-
-
-
 
 // Video section
 
