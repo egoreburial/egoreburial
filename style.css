@@ -85,10 +85,17 @@ h4 {
 		background-color: #fff;
 		color: #626567;
 		box-shadow: 0 0 10px 3px rgba(0,0,0, .3);
-		z-index: 9995;
+		z-index: 9996;
 	}
 	
-	.menuWrap {
+	#menuButton {
+		position:absolute;
+		width: 40px;
+		margin: 10px 10px;
+		z-index: 9997;
+		display: none;
+	}
+	#menuWrap {
 		width: 80%;
 		margin: 0 auto;
 	}
