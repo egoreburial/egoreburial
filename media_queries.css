@@ -119,19 +119,18 @@
 		font-size: 18px;
 		padding:0;
 	}
-	section, header, footer {
+	section, header {
 		background: url('img/home_bg_mobile.jpg') center fixed no-repeat;
 		-webkit-background-size: cover;
 		background-size: cover;
-		height: 100vh;
+		min-height: 100vh;
+		height: 100%;
 	}
+
 	article {
+		min-height: 100vh;
+		height: 100%;
 		width: 100vw;
-	}
-	
-	#video article {
-		height: 100vh;
-		padding: 0;
 	}
 	.js-video {
 		height: 7%;
@@ -146,6 +145,7 @@
 
 	#video p {
 		margin: 40px 0;
+		padding-bottom: 0;
 		font-size: 24px;
 	}
 	#video b {
@@ -170,6 +170,7 @@
 	#about article {
 		height: 100%;
 	}
+
 	#about section {
 		height: 100%;
 	}
@@ -192,6 +193,9 @@
 	.stores img {
 		height: 35px;
 		padding: 5px 5px;
+	}
+	.cm_logo {
+		bottom: 0;
 	}
 	.cm_logo img {
 		height: 50px;
