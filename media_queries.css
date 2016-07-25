@@ -166,7 +166,13 @@
 	#about {
 		background: url('img/about_bg_mobile.jpg') center fixed no-repeat;
 	}
-
+	
+	#about article {
+		height: 100%;
+	}
+	#about section {
+		height: 100%;
+	}
 	#social {
 		background: url('img/footer_bg_mobile.jpg') center fixed no-repeat;
 		height: 100vh;
