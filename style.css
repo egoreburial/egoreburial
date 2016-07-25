@@ -154,8 +154,10 @@ article {
 
 	.release {
 		position: absolute;
-		top: 23%;
-		left: 12%;
+		top: 50%;
+		left: 50%;
+		margin-top: -250px;
+		margin-left: -600px;
 		width: 1200px;
 		height: 500px;
 	}
@@ -312,9 +314,15 @@ article {
 	}
 
 	#about p {
-		font-size: 25px;
+		margin-top: 0;
+		font-size: 23px;
 		text-align: center;
 	}
+	
+	#about article {
+		height: 100%;
+	}
+
 
 #social {
 	background: url('img/footer_bg.jpg') center fixed no-repeat;

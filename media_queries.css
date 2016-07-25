@@ -2,8 +2,10 @@
 
 	.release {
 		position: absolute;
-		top: 10%;
-		left: 16.5%;
+		top: 50%;
+		left: 50%;
+		margin-top: -1000px;
+		margin-left: -500px;
 		width: 1000px;
 		height: 2000px;
 	}
@@ -114,7 +116,8 @@
 		padding: 12% 0 10% 0;	
 	}
 	h3 {
-		font-size: 15px;
+		font-size: 18px;
+		padding:0;
 	}
 	section, header, footer {
 		background: url('img/home_bg_mobile.jpg') center fixed no-repeat;
@@ -173,7 +176,7 @@
 		height: 100%;
 	}
 	#about p {
-		font-size: 13px;
+		font-size: 17px;
 	}
 	.social_icons img {
 		height: 40px;
