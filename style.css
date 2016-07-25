@@ -280,7 +280,7 @@ article {
 	/*.slider:hover > [class^="btn"] {
 		opacity: .5;
 	} */
-	#video p {
+	#video p{
 	text-align: center;
 	font-size: 18px;
 	font-weight: 100;
@@ -297,6 +297,11 @@ article {
 	#video a:hover {
 		color: rgba(187,0,0, 1);
 		text-decoration: none;
+	}
+
+	.moreVideo {
+		display: none;
+		
 	}
 
 #about {
