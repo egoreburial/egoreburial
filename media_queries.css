@@ -1,0 +1,159 @@
+@media only screen and (orientation:portrait), and (max-width: 768px) {
+
+	.release {
+		position: absolute;
+		top: 10%;
+		left: 16.5%;
+		width: 1000px;
+		height: 2000px;
+	}
+
+	.cover {
+		width: 1000px;
+		height:1000px;
+		overflow: hidden;
+	}
+
+	.release_info {
+		position: relative;
+		padding: 40px 0;
+		width: 1000px;
+		height: 1000px;
+		text-align: center;
+		font-size: 7em;
+		overflow: hidden;
+	}
+
+	.release_stores {
+		margin:0;
+		width: 100%;
+	}
+
+	.release_stores img {
+		height: 120px;
+		margin: 0;
+	}
+
+	.release_stores p {
+		font-size: .5em;
+		margin-bottom: 20px;
+	}
+
+	#social {
+		height: 95vh;
+	}
+
+	#social article {
+		height: 95vh;
+	}
+	
+	h1 {
+		font-size: 26px;
+	}
+
+	section, header {
+		background: url('img/home_bg_tablet.jpg') center fixed no-repeat;
+	}
+	#about {
+		background: url('img/about_bg_tablet.jpg') center fixed no-repeat;
+	}
+
+	#social {
+		background: url('img/footer_bg_tablet.jpg') center fixed no-repeat;
+	}
+	/* Navigaion */
+	nav {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		background-color: #fff;
+		color: #626567;
+		box-shadow: 0 0 10px 3px rgba(0,0,0, .3);
+		z-index: 9995;
+	}
+	
+	.menuWrap {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.logo {
+		float: left;
+		padding: 14px 0;
+	}
+
+	nav span {
+		font-size: 20px;
+	}
+	
+	.menu a {
+		text-decoration: none;
+		color: #a6acaf;
+		font-size: 20px;
+	}
+
+	nav li {
+		display: inline;
+		padding: 0 5px;
+	}
+
+	nav ul {
+		padding-left: 0;
+		margin: 14px 0;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	h1 {
+		font-size: 15px;
+	}
+	h2 {
+		font-size: 20px;
+		padding: 12% 0 10% 0;	
+	}
+	h3 {
+		font-size: 15px;
+	}
+	section, header, footer {
+		background: url('img/home_bg_mobile.jpg') center fixed no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		height: 100vh;
+	}
+	article {
+		width: 100vw;
+	}
+
+	.slider {
+		display:none;
+	}
+	#about {
+		background: url('img/about_bg_mobile.jpg') center fixed no-repeat;
+	}
+
+	#social {
+		background: url('img/footer_bg_mobile.jpg') center fixed no-repeat;
+		height: 100vh;
+	}
+
+	#social article {
+		height: 100%;
+	}
+	#about p {
+		font-size: 13px;
+	}
+	.social_icons img {
+		height: 40px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.stores img {
+		height: 35px;
+		padding: 5px 5px;
+	}
+	.cm_logo img {
+		height: 50px;
+	}
+}
